@@ -6,12 +6,14 @@
 [![Version][version-image]][version-url]
 [![Build Status][build-image]][build-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
-[![npm](https://img.shields.io/npm/dm/grunt-angular-file-loader.svg?style=flat)](https://www.npmjs.com/package/grunt-angular-file-loader)
+[![npm](https://img.shields.io/npm/dm/grunt-angular-file-sort.svg?style=flat)](https://www.npmjs.com/package/grunt-angular-file-sort)
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
-It is based on [`gulp-angular-filesort`](https://github.com/klei/gulp-angular-filesort) and [`wiredep`](https://github.com/taptapship/wiredep)
+It is based on [`gulp-angular-filesort`](https://github.com/klei/gulp-angular-filesort) and [`wiredep`](https://github.com/taptapship/wiredep).
+
+Forked from https://github.com/AntoineMary/grunt-angular-file-loader
 
 It will sort and inject javascript angular files into files that you need (HTML, Jade, and TXT are currently supported) 
 if some javascript files are not for angular they will be added at the end of the files list.
@@ -461,14 +463,14 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 *   1.3.1   Add "prefix" option
 *   1.3.2   Adds support for output to txt
 
-[build-image]:            http://img.shields.io/travis/AntoineMary/grunt-angular-file-loader.svg?style=flat
-[build-url]:              http://travis-ci.org/AntoineMary/grunt-angular-file-loader
+[build-image]:            http://img.shields.io/travis/DougReynolds/grunt-angular-file-sort.svg?style=flat
+[build-url]:              http://travis-ci.org/DougReynolds/grunt-angular-file-sort
 
-[dependencies-image]:     http://img.shields.io/gemnasium/AntoineMary/grunt-angular-file-loader.svg?style=flat
-[dependencies-url]:       https://gemnasium.com/AntoineMary/grunt-angular-file-loader
+[dependencies-image]:     https://david-dm.org/DouglasReynolds/grunt-angular-file-sort.svg
+[dependencies-url]:       https://david-dm.org/DouglasReynolds/grunt-angular-file-sort
 
 [license-image]:          http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]:            LICENSE
 
-[version-image]:          http://img.shields.io/npm/v/grunt-angular-file-loader.svg?style=flat
-[version-url]:            https://npmjs.org/package/grunt-angular-file-loader
+[version-image]:          http://img.shields.io/npm/v/grunt-angular-file-sort.svg?style=flat
+[version-url]:            https://npmjs.org/package/grunt-angular-file-sort

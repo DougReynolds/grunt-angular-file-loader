@@ -4,9 +4,9 @@
   "version": "1.3.2",
   "homepage": "https://github.com/DougReynolds/grunt-angular-file-sort",
   "author": {
-    "name": "Antoine Mary, Douglas Reynolds",
-    "email": "antoinee.mary@gmail.com, dougrdotnet@gmail.com",
-    "url": "https://antoinemary.io, https://github.com/DougReynolds"
+    "name": "Douglas Reynolds",
+    "email": "dougrdotnet@gmail.com",
+    "url": "https://github.com/DougReynolds"
   },
   "repository": "DougReynolds/grunt-angular-file-sort",
   "bugs": {
