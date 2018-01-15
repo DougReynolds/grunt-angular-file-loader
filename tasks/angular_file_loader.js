@@ -1,8 +1,10 @@
 /*
  * grunt-angular-file-loader
  * https://github.com/AntoineMary/grunt-angular-file-loader
+ * https://github.com/DougReynolds/grunt-angular-file-loader
  *
  * Copyright (c) 2015 Antoine Mary
+ * Copyright (c) 2018 Douglas Reynolds
  * Licensed under the MIT license.
  */
 
