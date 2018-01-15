@@ -462,6 +462,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 *   1.3.0   Fix Indent + Update Libs
 *   1.3.1   Add "prefix" option
 *   1.3.2   Adds support for output to txt
+*   1.3.3   Updates badges and links
 
 [build-image]:            http://img.shields.io/travis/DougReynolds/grunt-angular-file-sort.svg?style=flat
 [build-url]:              http://travis-ci.org/DougReynolds/grunt-angular-file-sort
