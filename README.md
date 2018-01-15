@@ -1,4 +1,4 @@
-# grunt-angular-file-loader
+# grunt-angular-file-sort
 
 > Automatically sort and inject AngularJS app files depending on module definitions and usage
 
@@ -21,7 +21,7 @@ if some javascript files are not for angular they will be added at the end of th
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-angular-file-loader --save-dev
+npm install grunt-angular-file-sort --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
