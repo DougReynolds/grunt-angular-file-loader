@@ -463,12 +463,13 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 *   1.3.1   Add "prefix" option
 *   1.3.2   Adds support for output to txt
 *   1.3.3   Updates badges and links
+*   1.3.4   Fixes dependency badge url
 
-[build-image]:            http://img.shields.io/travis/DougReynolds/grunt-angular-file-sort.svg?style=flat
+[build-image]:            http://img.shields.io/travis/DougReynolds/grunt-angular-file-sort.svg
 [build-url]:              http://travis-ci.org/DougReynolds/grunt-angular-file-sort
 
-[dependencies-image]:     https://david-dm.org/DouglasReynolds/grunt-angular-file-sort.svg
-[dependencies-url]:       https://david-dm.org/DouglasReynolds/grunt-angular-file-sort
+[dependencies-image]:     https://david-dm.org/dougreynolds/grunt-angular-file-sort.svg
+[dependencies-url]:       https://david-dm.org/dougreynolds/grunt-angular-file-sort
 
 [license-image]:          http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]:            LICENSE
