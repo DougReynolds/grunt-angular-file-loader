@@ -62,6 +62,14 @@ module.exports = function (grunt) {
                     start: '// ',
                     end:   ''
                 }
+            },
+            ejs: {
+                recipe:  '<script src="%" type="text/javascript"></script>',
+                regex:   new RegExp('<!--\\s*' + options.startTag + '\\s*-->(\\s*)(\\n|\\r|.)*?<!--\\s*' + options.endTag + '\\s*-->', 'gi'),
+                comment: {
+                    start: '<!-- ',
+                    end:   ' -->'
+                }
             }
         };
 

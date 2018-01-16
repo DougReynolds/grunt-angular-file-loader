@@ -15,7 +15,7 @@ It is based on [`gulp-angular-filesort`](https://github.com/klei/gulp-angular-fi
 
 Forked from https://github.com/AntoineMary/grunt-angular-file-loader
 
-It will sort and inject javascript angular files into files that you need (HTML, Jade, and TXT are currently supported) 
+It will sort and inject javascript angular files into files that you need (HTML, Jade, TXT, and EJS are currently supported) 
 if some javascript files are not for angular they will be added at the end of the files list.
 
 /!\ Jade is recognised by the plugin but the injection does not handle right indent. HTML is preferred for inject
@@ -52,6 +52,7 @@ grunt.initConfig({
 
 Before running task
 
+HTML
 ```html
 <!doctype html>
 <html lang="en">
@@ -65,7 +66,7 @@ Before running task
   </body>
 </html>
 ```
-
+Jade
 ```jade
 doctype 
 html(lang='en')
@@ -76,14 +77,20 @@ html(lang='en')
     // angular
     // endangular
 ```
-
+TXT
 ```text
 // angular
 // endangular
 ```
+EJS
+```ejs
+<!-- angular -->
+<!-- endangular -->
+```
 
 After task run
 
+HTML
 ```html
 <!doctype html>
 <html lang="en">
@@ -101,7 +108,7 @@ After task run
   </body>
 </html>
 ```
-
+Jade
 ```jade
 doctype 
 html(lang='en')
@@ -116,13 +123,22 @@ html(lang='en')
     script(src='...', type='text/javascript')
     // endangular
 ```
-
+TXT
 ```text
 // angular
 app.js
 module.js
 module-controller.js
-...
+// endangular
+```
+EJS
+```ejs
+<!-- angular -->
+<script src="app.js" type="text/javascript"></script>
+<script src="module.js" type="text/javascript"></script>
+<script src="module-controller.js" type="text/javascript"></script>
+<script src="..." type="text/javascript"></script>
+<!-- endangular -->
 ```
 ### Options
 
@@ -464,6 +480,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 *   1.3.2   Adds support for output to txt
 *   1.3.3   Updates badges and links
 *   1.3.4   Fixes dependency badge url
+*   1.3.5   Adds support for ejs (simple script output for script.ejs template)
 
 [build-image]:            http://img.shields.io/travis/DougReynolds/grunt-angular-file-sort.svg
 [build-url]:              http://travis-ci.org/DougReynolds/grunt-angular-file-sort

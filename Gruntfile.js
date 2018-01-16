@@ -106,6 +106,29 @@ module.exports = function(grunt) {
                 relative: 'test/fixtures/app'
             },
             src: ['test/fixtures/web/txt/relative_string.txt']
+        },
+        custom_tag_ejs: {
+            options: {
+                startTag: 'test',
+                endTag: 'endTest'
+            },
+            src: ['test/fixtures/web/ejs/custom_tag.ejs']
+        },
+        default_options_ejs: {
+            options: {},
+            src: ['test/fixtures/web/ejs/default_options.ejs']
+        },
+        relative_false_ejs: {
+            options: {
+                relative: false
+            },
+            src: ['test/fixtures/web/ejs/relative_false.ejs']
+        },
+        relative_string_ejs: {
+            options: {
+                relative: 'test/fixtures/app'
+            },
+            src: ['test/fixtures/web/ejs/relative_string.ejs']
         }
     },
 

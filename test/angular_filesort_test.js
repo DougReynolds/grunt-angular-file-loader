@@ -154,5 +154,48 @@ exports.angularFileLoader = {
       test.equal(actual, expected, 'Injection must be done');
 
       test.done();
-  }
+  },
+
+    custom_tag_ejs: function(test) {
+        test.expect(1);
+
+        var actual = grunt.file.read('test/fixtures/web/ejs/custom_tag.ejs');
+        var expected = grunt.file.read('test/expected/ejs/custom_tag.ejs');
+        test.equal(actual, expected, 'Injection must be done');
+
+        test.done();
+    },
+
+    default_options_ejs: function(test) {
+        test.expect(1);
+
+        var actual = grunt.file.read('test/fixtures/web/ejs/default_options.ejs');
+        var expected = grunt.file.read('test/expected/ejs/default_options.ejs');
+
+        test.equal(actual, expected, 'Injection must be done');
+
+        test.done();
+    },
+
+    relative_false_ejs: function(test) {
+        test.expect(1);
+
+        var actual = grunt.file.read('test/fixtures/web/ejs/relative_false.ejs');
+        var expected = grunt.file.read('test/expected/ejs/relative_false.ejs');
+
+        test.equal(actual, expected, 'Injection must be done');
+
+        test.done();
+    },
+
+    relative_string_ejs: function(test) {
+        test.expect(1);
+
+        var actual = grunt.file.read('test/fixtures/web/ejs/relative_string.ejs');
+        var expected = grunt.file.read('test/expected/ejs/relative_string.ejs');
+
+        test.equal(actual, expected, 'Injection must be done');
+
+        test.done();
+    }
 };
